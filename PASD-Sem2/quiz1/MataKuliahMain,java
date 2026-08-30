@@ -1,0 +1,14 @@
+public class MataKuliahMain {
+
+    public static void main(String[] args) {
+
+        Matkul15 mk1 = new Matkul15("SI201", "Basis Data", 3);
+
+        mk1.tampilkanInfo();
+
+        mk1.ubahNamaMK("Basis Data Lanjut");
+        mk1.ubahSKS(4);
+
+        mk1.tampilkanInfo();
+    }
+}
